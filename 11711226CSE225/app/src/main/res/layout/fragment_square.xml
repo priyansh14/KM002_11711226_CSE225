@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".SquareFragment">
+
+    <TextView
+        android:id="@+id/numsquaredtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#45e9f3"
+        android:textColor="#000"
+        android:layout_marginTop="120dp"
+        android:text="The Number Passed from Home Activity is  " />
+
+    <EditText
+        android:id="@+id/ETSQUARED1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="235dp"
+        android:background="#45e9f3"
+        android:text="NO NUM PASSED"
+        android:textAlignment="center"
+
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/numsquaredtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#45e9f3"
+        android:textColor="#000"
+        android:layout_marginTop="390dp"
+        android:text="The Square Of The Number Passed is  " />
+
+    <EditText
+        android:layout_width="200dp"
+        android:textAlignment="center"
+        android:layout_height="60dp"
+        android:id="@+id/ETSQUARED2"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="NO NUM PASSED"
+        android:background="#45e9f3"
+
+        android:textColor="#000"
+        />
+
+</FrameLayout>

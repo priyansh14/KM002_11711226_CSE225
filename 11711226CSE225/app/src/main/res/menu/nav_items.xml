@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home2"
+        android:icon="@drawable/baseline_explore_black_18dp"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/square"
+        android:icon="@drawable/baseline_looks_two_black_18dp"
+        android:title="@string/nav_notif" />
+
+
+</menu>
